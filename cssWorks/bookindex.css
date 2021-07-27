@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Qahiri&display=swap');
+
+div{
+    width : 24.6%;
+    height: 600px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+    float: left;
+    font-family: 'Otomanopee One', sans-serif;
+    background-image: url("img1.jpg");
+    background-blend-mode: color-burn;
+}
+img{
+    
+    width: 100%;
+    height: 350px;
+    align-content: center;
+}
+p{
+    text-align: center;
+    line-height:15px;
+    /* font-family: 'Otomanopee One', sans-serif; */
+}
+span{
+    font-weight: bold;
+}

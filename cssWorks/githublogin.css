@@ -1,0 +1,23 @@
+.container{
+  
+    border: 1px solid gainsboro;
+    background-color: ivory;
+    height: 250px;
+    width: 600px;
+    left: 25%;
+    top:10%;
+}
+
+
+.stickyclass{
+    height: 100px;
+    width: 50px;
+    position: sticky;
+    left:30%;
+    border: 1px solid tomato;
+    background-color: yellowgreen;   
+    top :0%
+}
+.rel{
+    position: relative;
+}

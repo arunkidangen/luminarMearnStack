@@ -1,0 +1,27 @@
+#title1{
+    color: #5f008f;
+}
+#title2{
+    color: #6f2d9199;
+}
+
+.learn{
+padding: 16px 27px;
+font-weight: 600;
+margin-top: 21px;
+border-radius: 50px;
+border: 2px solid #5e068a;
+background-color: #5f008f;
+color: white;
+}
+.learn:hover{
+    color: #5e068a;
+    background-color: white;
+}
+.header-top{
+    background: #5e068a;
+    color: #ffffff;
+    font-size: 13px;
+    position: relative;
+}
+}

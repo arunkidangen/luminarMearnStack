@@ -1,0 +1,29 @@
+/* selectors */
+
+/* tag selector or id selector or class selector{
+    property1: value;
+}
+*/
+
+h1{
+ color: tomato;    /*primarycolor*/
+}
+
+/* id selector  # is used*/
+
+#second{
+    color: violet;
+}
+
+
+/* class selector  . is used*/
+.classselector{
+    color: rgb(46, 61, 221); /*rgb combination* r,g,b/
+}
+.classselector1{
+    color: #42f56c;   /*color code rrggbb*/
+}
+
+h2{
+    color:hsl(37, 90%, 61%); /* hue : 0-360, saturation: 0-100% , lightness: 0-100% */
+}

@@ -1,0 +1,79 @@
+.headerclass{
+   position: relative;
+   top :5px;
+   left:40%;
+}
+
+.loginclass{
+    width: 232px;
+    height: 180px;
+    background-color: rgb(210, 216, 196);
+    border:1px solid rgb(95, 94, 94);
+    position: absolute;
+    top:25%;
+    left: 551px;
+   
+}
+.formclass{
+    left:30px;
+    position: relative;
+}
+.inneardiv1{
+ position: absolute;
+ top:20px;
+ left:-17px;
+ 
+}
+.inputdata{
+width :75%;
+}
+.inputdata2{
+    width :189px;
+    }
+.inneardiv2{
+    position: absolute;
+    top: 80px;
+    left:-20px;
+   
+}
+.inputclass2{
+    position: absolute;
+    top:105px;
+    left:-17px;
+    width: 75%;
+    
+}
+.buttonclass{
+    position: absolute;
+    top:139px;
+    left:22%;
+    background-color: rgb(49, 141, 49);
+}
+
+.imgclass{
+    position: relative;
+    left: 6%;
+}
+
+.footerdiv1{
+    position: absolute;
+    top:56%;
+    left:551px;
+    width: 224px;
+    height: 25px;
+    border: 1px solid rgb(95, 94, 94);;
+    padding: 5px;
+}
+.footerdiv2{
+    position: absolute;
+    top:70%;
+    left:41%;
+}
+.pswd{
+    position: absolute;
+    left:2%;
+}
+.linkclass{
+    position: relative;
+    left:85%;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Qahiri&display=swap');
+
+
+body{
+    background-color: black; 
+}
+p{
+    color:white;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+}
+div{
+width:10%;
+height: 23%;
+padding: 2px;
+
+}
+.class1{
+    margin-left: 348px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.class2{
+    background-color:rgb(13, 51, 95);
+    margin-left: 531px;
+    margin-top: -224px;
+}
+
+.class3 {
+    background-color: salmon;
+    margin-left: 714px;
+    margin-top: -224px;
+}
+.class4{
+    background-color : blueviolet;
+    margin-left: 894px;
+    margin-top: -224px;
+}
+.class5{
+    
+    background-color :tomato;
+    margin-left: 1075px;
+    margin-top: -224px;
+}

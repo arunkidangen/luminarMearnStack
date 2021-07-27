@@ -1,0 +1,29 @@
+.row{
+    width : 100%;
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+    /* justify-content: space-between;  justify for horizontal alingment */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */ /*align for vertical alingment */
+    /* justify-content: flex-end; */
+    /* align-items: center;align for vertical alingment */
+    /* justify-content: space-around; */
+   
+}
+.col{
+    width: 150px;
+    height: 200px;
+}
+.col1{
+    flex: 2;
+}
+.col2{
+    flex: 3;
+}
+.col3{
+    flex: 1;
+}
+.col4{
+    flex: 2;
+}

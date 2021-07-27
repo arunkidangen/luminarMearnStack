@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Prompt:ital,wght@1,200&display=swap');
+.profilename{
+    text-decoration: underline 2px solid;
+}
+.datalist{
+    font-family: 'Quicksand', sans-serif;
+   font-size: 13px;
+    
+}
+.personaldta{
+    background-color: rgb(69, 95, 156);
+    background-blend-mode: lighten;
+    margin-left: 40px;
+}
+.carrerobjective{
+    background-color: rgb(157, 183, 229);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.skillset{
+    margin-left: 40px;
+    background-color: rgb(157, 183, 229);
+}
+.academics{
+    font-family: 'Playfair Display', serif;
+}
+.academicdetails{
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Prompt', sans-serif;
+}
+.boldtext{
+text-decoration: s;
+}
