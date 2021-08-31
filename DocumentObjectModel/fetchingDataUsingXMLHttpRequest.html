@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1> users</h1>
+ <div class="container">
+     <button onclick="fetchTodo()" class="btn btn-primary btn-outline-drk"> Fetch Todos</button>
+        <table class="table table-bordered mt-5">
+            <tr>
+                <th>UserId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Completed</th>
+            </tr>
+            <tbody id="todoTableId">
+    
+            </tbody>
+        </table>
+ </div>
+</body>
+
+<script>
+
+   function fetchTodo(){
+        // create XMLHttpRequest object
+    var request = new XMLHttpRequest();
+
+// open connection
+request.open("get", "https://jsonplaceholder.typicode.com/todos");
+// send request 
+request.send();
+request.onreadystatechange = () => {
+    if (request.readyState == 4 && request.status > 199 && request.status < 300) {
+        var data = JSON.parse(request.responseText);
+        //console.log(JSON.parse(request.responseText));
+       
+            populateData(data);
+       
+        // console.log(JSON.parse(request.responseText));
+    } 
+}
+//readyState == 4 && status ==200
+   }
+function populateData(data){
+    let htmlData ="";
+    for(todo of data)
+    {
+        htmlData+=`<tr><td>${todo.userId}</td><td>${todo.id}</td><td>${todo.title}</td><td>${todo.completed}</td> </tr>`
+        }
+        todoTableId.innerHTML=htmlData;
+}
+
+</script>
+
+</html>
